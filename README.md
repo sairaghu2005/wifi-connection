@@ -31,3 +31,21 @@ This repository contains sample code and instructions to connect a **Wemos D1 Mi
 - Open Arduino IDE.
 - Go to `File` → `Preferences`.
 - In the "Additional Board Manager URLs", add:
+  - Go to `Tools` → `Board` → `Boards Manager`, search for **ESP8266** and click **Install**.
+
+### 2. Select the Board
+
+- Navigate to: `Tools` → `Board` → **LOLIN(Wemos) D1 R2 & Mini**
+
+### 3. Install Required Libraries
+
+- No additional libraries are required for basic Wi-Fi connection.
+
+🔧 Troubleshooting
+
+⚠️ Wemos only supports 2.4GHz Wi-Fi, not 5GHz.
+
+🔌 Make sure USB cable supports data, not just charging.
+
+🔁 Try resetting the board or restarting the router.
+
